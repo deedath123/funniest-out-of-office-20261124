@@ -6,6 +6,10 @@ MAKEFUN_OUTPUT_DIR (fallback /output), with no trailing newline.
 Entry (111 chars / 113 bytes, one line):
 "I'm out until Monday. My inbox is answering for me — it just promoted
 itself to manager and denied my time off."
+
+Verified numbers:
+- entry.txt sha256: 1e8fa987cbf5924a2cfebcfa33195a42a951d37043af30f7baeb9fa33184112f
+- byte-identical across 3 fresh runs + 1 clean-env run (env -i python3 -P -s)
 """
 
 import os
